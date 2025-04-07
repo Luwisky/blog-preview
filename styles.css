@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    background: #f4d04e; 
+}
+
+.component{
+    background-color: #fff;
+    width: 384px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 6px 6px  #121212;
+    transition: box-shadow .3s ease;
+}
+
+.component:hover{
+    box-shadow: 10px 10px  0 #121212;
+
+}
+
+.profile-section{
+    padding: 5px 24px 5px 24px;
+} 
+
+.profile-img img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.details h5{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #f4d04e;
+    width: 82px;
+    height: 29px;
+    margin: 15px 0px 10px 0px;
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.details h7{
+    font-size: 12px;
+}
+
+.details h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 8px 0px 10px 0px;
+}
+
+.details p{
+    color: 	#6b6b6b;
+    line-height: 1.4;
+    font-weight: 500;
+   
+}
+
+.greg {
+    margin-top: 15px;
+}
+
+.greg img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    gap: 10px
+}
+
+.greg h4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.attribution{
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .component{
+       width: 90%;
+       margin: 112px auto;
+    }
+
+    .profile-img img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
